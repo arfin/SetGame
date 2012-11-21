@@ -43,12 +43,15 @@ public final class R {
     public static final class string {
         public static final int add_cards=0x7f060008;
         public static final int app_name=0x7f060000;
+        public static final int game_over=0x7f06000c;
         public static final int hello_world=0x7f060001;
         public static final int hint=0x7f060006;
         public static final int load_save=0x7f060005;
         public static final int menu_settings=0x7f060002;
         public static final int new_game=0x7f060004;
+        public static final int pause=0x7f06000a;
         public static final int show=0x7f060007;
+        public static final int start=0x7f06000b;
         public static final int title_activity_gameplay=0x7f060003;
         public static final int title_activity_set_preferences=0x7f060009;
     }

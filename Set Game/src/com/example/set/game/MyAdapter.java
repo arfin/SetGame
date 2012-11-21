@@ -37,7 +37,6 @@ public class MyAdapter extends BaseAdapter {
 				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		View gridView;
 
-//		if (convertView == null) {
 			gridView = new View(context);
 			gridView = inflater.inflate(R.layout.image, null);
 			ImageView imageView = (ImageView) gridView
@@ -47,9 +46,6 @@ public class MyAdapter extends BaseAdapter {
 			Bitmap newbm = Bitmap.createBitmap(bm, cards.get(position).xOffset,
 					cards.get(position).yOffset, 95, 53);
 			imageView.setImageBitmap(newbm);
-//		} else {
-	//		gridView = (View) convertView;
-//		}
 		return gridView;
 	}
 
