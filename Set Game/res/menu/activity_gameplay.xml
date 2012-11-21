@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+    <item
+        android:id="@+id/new_game"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/new_game"/>
+    <item
+        android:id="@+id/load_save"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/load_save"/>
+    <item
+        android:id="@+id/hint"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/hint"/>
+    <item
+        android:id="@+id/show"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/show"/>
+    <item
+        android:id="@+id/add_cards"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/add_cards"/>
+
+</menu>
